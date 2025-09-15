@@ -1,0 +1,269 @@
+Screen session: 68358.beta_2.3_various_barrier_height and Window number:  1, finish running NAND_sim_beta_2.3.py at 07-21-2025_16-05 \n
+Screen session: 68358.beta_2.3_various_barrier_height and Window number:  1, finish running NAND_sim_beta_2.3.py at 07-21-2025_16-06 \n
+Screen session: 68358.beta_2.3_various_barrier_height and Window number:  1, finish running NAND_sim_beta_2.3.py at 07-21-2025_16-08 \n
+Screen session: 68358.beta_2.3_various_barrier_height and Window number:  1, finish running NAND_sim_beta_2.3.py at 07-21-2025_16-08 \n
+Screen session: 68358.beta_2.3_various_barrier_height and Window number:  1, finish running NAND_sim_beta_2.3.py at 07-21-2025_16-08 \n
+Screen session: 68358.beta_2.3_various_barrier_height and Window number:  1, finish running NAND_sim_beta_2.3.py at 07-21-2025_16-09 \n
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 1, finished running NAND_sim_beta_2.3.py at 07-21-2025_16-14
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 3, finished running NAND_sim_beta_2.3_adiabatic.py at 07-21-2025_17-54
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 4, finished running NAND_sim_beta_2.3_adiabatic.py at 07-21-2025_17-55
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 2, finished running NAND_sim_beta_2.3_adiabatic.py at 07-21-2025_17-55
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 0, finished running NAND_sim_beta_2.3_adiabatic.py at 07-21-2025_17-55
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 1, finished running NAND_sim_beta_2.3_adiabatic.py at 07-21-2025_17-55
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 0, finished running NAND_sim_beta_1.35_adiabatic.py at 07-23-2025_13-06
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 1, finished running NAND_sim_beta_1.35_adiabatic.py at 07-23-2025_13-21
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 3, finished running NAND_sim_beta_1.35_adiabatic.py at 07-23-2025_14-23
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 2, finished running NAND_sim_beta_1.35_adiabatic.py at 07-23-2025_14-35
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 2, finished running NAND_sim_beta_2.3_adiabatic.py at 07-24-2025_01-37
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 1, finished running NAND_sim_beta_2.3_adiabatic.py at 07-24-2025_02-57
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 0, finished running NAND_sim_beta_2.3_adiabatic.py at 07-24-2025_03-36
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 4, finished running NAND_sim_beta_2.3_adiabatic.py at 07-25-2025_03-29
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 3, finished running NAND_sim_beta_2.3_adiabatic.py at 07-25-2025_03-52
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 2, finished running NAND_sim_beta_2.3_adiabatic.py at 07-25-2025_04-12
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 1, finished running NAND_sim_beta_2.3_adiabatic.py at 07-25-2025_05-25
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 0, finished running NAND_sim_beta_2.3_adiabatic.py at 07-25-2025_07-30
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 2, finished running NAND_sim_beta_2.3_adiabatic.py at 07-26-2025_05-14
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 1, finished running NAND_sim_beta_2.3_adiabatic.py at 07-26-2025_05-47
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 0, finished running NAND_sim_beta_2.3_adiabatic.py at 07-26-2025_06-17
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 0, finished running NAND_sim_beta_1.35_adiabatic.py at 07-26-2025_10-00
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 1, finished running NAND_sim_beta_1.35_adiabatic.py at 07-26-2025_10-14
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 3, finished running NAND_sim_beta_1.35_adiabatic.py at 07-26-2025_11-17
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 2, finished running NAND_sim_beta_1.35_adiabatic.py at 07-26-2025_11-28
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 4, finished running NAND_sim_beta_2.3_adiabatic.py at 07-27-2025_05-49
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 3, finished running NAND_sim_beta_2.3_adiabatic.py at 07-27-2025_05-59
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 2, finished running NAND_sim_beta_2.3_adiabatic.py at 07-27-2025_06-12
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 1, finished running NAND_sim_beta_2.3_adiabatic.py at 07-27-2025_06-47
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 4, finished running NAND_sim_beta_2.3_adiabatic.py at 07-28-2025_09-28
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 3, finished running NAND_sim_beta_2.3_adiabatic.py at 07-28-2025_09-30
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 2, finished running NAND_sim_beta_2.3_adiabatic.py at 07-28-2025_09-36
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 1, finished running NAND_sim_beta_2.3_adiabatic.py at 07-28-2025_09-49
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 0, finished running NAND_sim_beta_2.3_adiabatic.py at 07-28-2025_09-57
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 1, finished running NAND_sim_beta_1.35_adiabatic_gamma_16.py at 07-29-2025_02-30
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 0, finished running NAND_sim_beta_1.35_adiabatic_gamma_16.py at 07-29-2025_02-30
+Screen session: 79892.beta_1.35_harmonic and Window number: 0, finished running NAND_sim_beta_1.35_friction_analysis.py at 07-29-2025_11-04
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running NAND_sim_beta_1.35_friction_analysis.py at 07-29-2025_11-04
+Screen session: 79892.beta_1.35_harmonic and Window number: 2, finished running NAND_sim_beta_1.35_friction_analysis.py at 07-29-2025_11-04
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running NAND_sim_beta_1.35_friction_analysis.py at 07-30-2025_09-02
+Screen session: 79892.beta_1.35_harmonic and Window number: 2, finished running NAND_sim_beta_1.35_friction_analysis.py at 07-30-2025_09-02
+Screen session: 79892.beta_1.35_harmonic and Window number: 0, finished running NAND_sim_beta_1.35_friction_analysis.py at 07-30-2025_09-03
+Screen session: 97435.create_new_init_states and Window number:  2, finish running create_initi_state.py at 07-30-2025_19-54 \n
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 0, finished running NAND_sim_beta_1.35_adiabatic_gamma_16.py at 07-31-2025_00-46
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 2, finished running NAND_sim_beta_1.35_adiabatic_gamma_9.py at 07-31-2025_00-46
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 2, finished running NAND_sim_beta_1.35_adiabatic_gamma_16.py at 07-31-2025_00-46
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 0, finished running NAND_sim_beta_1.35_adiabatic_gamma_9.py at 07-31-2025_00-47
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 1, finished running NAND_sim_beta_1.35_adiabatic_gamma_16.py at 07-31-2025_00-47
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 3, finished running NAND_sim_beta_1.35_adiabatic_gamma_9.py at 07-31-2025_00-48
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 0, finished running NAND_sim_beta_1.35_adiabatic_gamma_9.py at 08-01-2025_04-16
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 3, finished running NAND_sim_beta_1.35_adiabatic_gamma_9.py at 08-01-2025_06-50
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 2, finished running NAND_sim_beta_1.35_adiabatic_gamma_9.py at 08-01-2025_07-10
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 1, finished running NAND_sim_beta_1.35_adiabatic_gamma_9.py at 08-02-2025_07-50
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 2, finished running NAND_sim_beta_1.35_adiabatic_gamma_16.py at 08-03-2025_10-24
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 1, finished running NAND_sim_beta_1.35_adiabatic_gamma_16.py at 08-03-2025_10-24
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 0, finished running NAND_sim_beta_1.35_adiabatic_gamma_16.py at 08-03-2025_10-24
+Screen session:  and Window number: , finished running 123 at 08-20-2025_12-07
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 0, finished running 123 at 08-21-2025_15-03
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 1, finished running 123 at 08-21-2025_15-04
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 2, finished running 123 at 08-21-2025_15-04
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running NAND_sim_beta_2.3.py at 08-21-2025_17-02
+Screen session: 79892.beta_1.35_harmonic and Window number: 0, finished running NAND_sim_beta_2.3.py at 08-21-2025_17-02
+Screen session: 79892.beta_1.35_harmonic and Window number: 2, finished running NAND_sim_beta_2.3.py at 08-21-2025_17-03
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 0, finished running NAND_sim_beta_2.3_adiabatic.py at 08-21-2025_18-17
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 2, finished running NAND_sim_beta_2.3_adiabatic.py at 08-21-2025_18-18
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 1, finished running NAND_sim_beta_2.3_adiabatic.py at 08-21-2025_18-18
+Screen session: 79892.beta_1.35_harmonic and Window number: 3, finished running NAND_sim_beta_2.3.py at 08-22-2025_12-47
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 1, finished running NAND_sim_beta_1.35_friction_analysis.py at 08-24-2025_02-22
+Screen session: 79892.beta_1.35_harmonic and Window number: 3, finished running test_export.json at 08-24-2025_12-26
+Screen session: 79892.beta_1.35_harmonic and Window number: 3, finished running harmonic_beta_1.35.json at 08-24-2025_16-55
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 0, finished running c3ed1db1cdbec947bbfb2f67c0fab51fe198de8879866e6b6f306e3f298fd4e6 at 08-24-2025_17-00
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 1, finished running c3ed1db1cdbec947bbfb2f67c0fab51fe198de8879866e6b6f306e3f298fd4e6 at 08-24-2025_17-46
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 1, finished running NAND_sim_beta_1.35_friction_analysis.py at 08-24-2025_21-46
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 3, finished running NAND_sim_beta_1.35_friction_analysis.py at 08-24-2025_21-47
+Screen session: 79892.beta_1.35_harmonic and Window number: 0, finished running NAND_sim_beta_1.35_friction_analysis.py at 08-25-2025_04-34
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running NAND_sim_beta_1.35_friction_analysis.py at 08-25-2025_04-34
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 0, finished running 24f8f66d34a47b1fabbd8f9fdde677d2fc49e643683c960a6a13bd8f94ef5322 at 08-25-2025_11-55
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 1, finished running 24f8f66d34a47b1fabbd8f9fdde677d2fc49e643683c960a6a13bd8f94ef5322 at 08-25-2025_12-05
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 2, finished running 24f8f66d34a47b1fabbd8f9fdde677d2fc49e643683c960a6a13bd8f94ef5322 at 08-25-2025_12-05
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 0, finished running fast_protocol.json at 08-25-2025_16-02
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 2, finished running fast_protocol.json at 08-25-2025_16-05
+Screen session: 79892.beta_1.35_harmonic and Window number: 0, finished running Experiment 4 (2025-07-29)_t_42.json at 08-25-2025_17-19
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 1, finished running fast_protocol.json at 08-25-2025_23-05
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 0, finished running fast_protocol.json at 08-25-2025_23-06
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 1, finished running fast_protocol.json at 08-26-2025_11-10
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 0, finished running fast_protocol.json at 08-26-2025_19-03
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 1, finished running fast_protocol.json at 08-26-2025_19-03
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 0, finished running fast_protocol_v2.json at 08-26-2025_23-29
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 1, finished running fast_protocol_v2.json at 08-26-2025_23-30
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 3, finished running fast_protocol_v2.json at 08-26-2025_23-30
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 2, finished running fast_protocol_v2.json at 08-26-2025_23-31
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 2, finished running fast_protocol.json at 08-27-2025_01-57
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 2, finished running fast_protocol_v2.json at 08-27-2025_10-44
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 0, finished running fast_protocol_v2.json at 08-27-2025_10-44
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 3, finished running fast_protocol_v2.json at 08-27-2025_10-44
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 1, finished running fast_protocol_v2.json at 08-27-2025_10-45
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 0, finished running NAND_sim_beta_1.35_friction_analysis.py at 08-27-2025_12-42
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 1, finished running NAND_sim_beta_1.35_friction_analysis.py at 08-27-2025_14-00
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 2, finished running NAND_sim_beta_1.35_friction_analysis.py at 08-27-2025_15-19
+Screen session: 79892.beta_1.35_harmonic and Window number: 3, finished running fast_protocol_v3_t1_7.json at 08-27-2025_16-53
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running fast_protocol_v3_t1_7.json at 08-27-2025_16-53
+Screen session: 79892.beta_1.35_harmonic and Window number: 0, finished running fast_protocol_v3_t1_7.json at 08-27-2025_16-53
+Screen session: 79892.beta_1.35_harmonic and Window number: 2, finished running fast_protocol_v3_t1_7.json at 08-27-2025_16-53
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 4, finished running NAND_sim_beta_1.35_friction_analysis.py at 08-27-2025_18-42
+Screen session: 79892.beta_1.35_harmonic and Window number: 2, finished running fast_protocol_v3_t1_7.json at 08-28-2025_11-47
+Screen session: 79892.beta_1.35_harmonic and Window number: 3, finished running fast_protocol_v3_t1_7.json at 08-28-2025_11-47
+Screen session: 79892.beta_1.35_harmonic and Window number: 4, finished running fast_protocol_v3_t1_7.json at 08-28-2025_11-47
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running fast_protocol_v3_t1_7.json at 08-28-2025_12-50
+Screen session: 79892.beta_1.35_harmonic and Window number: 0, finished running fast_protocol_v3_t1_7.json at 08-28-2025_12-51
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running  at 08-28-2025_15-28
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running  at 08-28-2025_15-28
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running  at 08-28-2025_15-35
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running  at 08-28-2025_15-35
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running  at 08-28-2025_15-42
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running  at 08-28-2025_15-44
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running  at 08-28-2025_17-33
+Screen session: 79892.beta_1.35_harmonic and Window number: 5, finished running fast_protocol_v3_t1_7.json at 08-28-2025_21-11
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 0, finished running fast_protocol_v4_t1_7.json at 08-29-2025_03-42
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 4, finished running fast_protocol_v4_t1_7.json at 08-29-2025_03-42
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 3, finished running fast_protocol_v4_t1_7.json at 08-29-2025_03-42
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 1, finished running fast_protocol_v4_t1_7.json at 08-29-2025_03-42
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 2, finished running fast_protocol_v4_t1_7.json at 08-29-2025_03-42
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 1, finished running fast_protocol_v3_t1_7.json at 08-29-2025_07-09
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 3, finished running fast_protocol_v3_t1_7.json at 08-29-2025_07-09
+Screen session: 79892.beta_1.35_harmonic and Window number: 0, finished running fast_protocol_v3_t1_7.json at 08-29-2025_07-17
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 0, finished running fast_protocol_v6_mu_edited.json at 08-29-2025_09-49
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 3, finished running fast_protocol_v6_mu_edited.json at 08-29-2025_09-50
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 4, finished running fast_protocol_v6_mu_edited.json at 08-29-2025_09-50
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 1, finished running fast_protocol_v6_mu_edited.json at 08-29-2025_09-50
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 2, finished running fast_protocol_v6_mu_edited.json at 08-29-2025_09-50
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 5, finished running fast_protocol_v6_mu_edited.json at 08-29-2025_09-50
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 1, finished running fast_protocol_v7_mu_edited.json at 08-30-2025_10-07
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 3, finished running fast_protocol_v7_mu_edited.json at 08-30-2025_10-07
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 2, finished running fast_protocol_v7_mu_edited.json at 08-30-2025_10-07
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 0, finished running fast_protocol_v7_mu_edited.json at 08-30-2025_10-07
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 4, finished running fast_protocol_v7_mu_edited.json at 08-30-2025_10-11
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running  at 08-30-2025_12-21
+Screen session: 79892.beta_1.35_harmonic and Window number: 1, finished running  at 08-30-2025_13-49
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 2, finished running fast_protocol_v7_mu_edited.json at 08-30-2025_19-07
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 3, finished running fast_protocol_v7_mu_edited.json at 08-30-2025_19-08
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 1, finished running fast_protocol_v7_mu_edited.json at 08-30-2025_19-08
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 4, finished running fast_protocol_v7_mu_edited.json at 08-30-2025_19-08
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 0, finished running json_input_folder/fast_protocol_beta_1.5_v2.json at 08-30-2025_19-39
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 5, finished running json_input_folder/fast_protocol_beta_1.5_v2.json at 08-30-2025_19-39
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 1, finished running json_input_folder/fast_protocol_beta_1.5_v2.json at 08-30-2025_19-39
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 3, finished running json_input_folder/fast_protocol_beta_1.5_v2.json at 08-30-2025_19-40
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 4, finished running json_input_folder/fast_protocol_beta_1.5_v2.json at 08-30-2025_19-40
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 2, finished running json_input_folder/fast_protocol_beta_1.5_v2.json at 08-30-2025_19-40
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 3, finished running json_input_folder/fast_protocol_beta_1.5_v2.json at 08-31-2025_15-09
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 0, finished running json_input_folder/fast_protocol_beta_1.5_v2.json at 08-31-2025_15-09
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 2, finished running json_input_folder/fast_protocol_beta_1.5_v2.json at 08-31-2025_15-10
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 6, finished running json_input_folder/fast_protocol_beta_1.5_v2.json at 08-31-2025_15-10
+Screen session: 81862.beta_2.3_gamma_9_adiabatic and Window number: 5, finished running json_input_folder/fast_protocol_beta_1.5_v2.json at 08-31-2025_15-18
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 4, finished running json_input_folder/fast_protocol_v13_mu_edited.json at 09-02-2025_04-10
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 2, finished running json_input_folder/fast_protocol_v14_mu_edited.json at 09-02-2025_05-03
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 1, finished running json_input_folder/fast_protocol_v14_mu_edited.json at 09-02-2025_05-03
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 0, finished running json_input_folder/fast_protocol_v14_mu_edited.json at 09-02-2025_05-03
+Screen session: 93799.beta_1.35_adiabatic_different_t and Window number: 3, finished running json_input_folder/fast_protocol_v14_mu_edited.json at 09-02-2025_05-04
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 1, finished running json_input_folder/fast_protocol_v14_mu_edited.json at 09-02-2025_05-07
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 0, finished running json_input_folder/fast_protocol_v14_mu_edited.json at 09-02-2025_05-07
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 2, finished running json_input_folder/fast_protocol_v14_mu_edited.json at 09-02-2025_05-07
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 4, finished running json_input_folder/fast_protocol_v14_mu_edited.json at 09-02-2025_05-07
+Screen session: 75356.beta_1.4_harmonic_expt_1 and Window number: 3, finished running json_input_folder/fast_protocol_v14_mu_edited.json at 09-02-2025_05-07
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 3, finished running json_input_folder/fast_protocol_v14_mu_edited.json at 09-02-2025_05-07
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 1, finished running json_input_folder/fast_protocol_v14_mu_edited.json at 09-02-2025_05-07
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 2, finished running json_input_folder/fast_protocol_v14_mu_edited.json at 09-02-2025_05-07
+Screen session: 68358.beta_2.3_various_barrier_height and Window number: 5, finished running json_input_folder/fast_protocol_v14_mu_edited.json at 09-02-2025_05-07
+Screen session: 5014.harmonic_2 and Window number: 1, finished running json_input_folder/fast_protocol_v22_mu_edited.json at 09-03-2025_00-09
+Screen session: 5014.harmonic_2 and Window number: 0, finished running json_input_folder/fast_protocol_v22_mu_edited.json at 09-03-2025_00-09
+Screen session: 5014.harmonic_2 and Window number: 4, finished running json_input_folder/fast_protocol_v22_mu_edited.json at 09-03-2025_00-10
+Screen session: 5014.harmonic_2 and Window number: 3, finished running json_input_folder/fast_protocol_v22_mu_edited.json at 09-03-2025_00-10
+Screen session: 5014.harmonic_2 and Window number: 2, finished running json_input_folder/fast_protocol_v22_mu_edited.json at 09-03-2025_00-10
+Screen session: 21730.test1 and Window number: 1, finished running json_input_folder/fast_protocol_v-100_mu_edited.json at 09-04-2025_16-46
+Screen session: 21730.test1 and Window number: 1, finished running json_input_folder/fast_protocol_v-100_mu_edited.json at 09-04-2025_17-02
+Screen session: 21730.test1 and Window number: 1, finished running json_input_folder/fast_protocol_v-100_mu_edited.json at 09-04-2025_17-06
+Screen session: 60685.test3 and Window number: 2, finished running json_input_folder/Experiment_3_(2025-09-05) at 09-05-2025_18-41
+Screen session: 60685.test3 and Window number: 1, finished running json_input_folder/Experiment_3_(2025-09-05) at 09-05-2025_18-41
+Screen session: 60685.test3 and Window number: 0, finished running json_input_folder/Experiment_3_(2025-09-05) at 09-05-2025_18-41
+Screen session: 62033.test4 and Window number: 0, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-05-2025_23-52
+Screen session: 62033.test4 and Window number: 3, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-05-2025_23-52
+Screen session: 62033.test4 and Window number: 1, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-05-2025_23-52
+Screen session: 62033.test4 and Window number: 2, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-05-2025_23-52
+Screen session: 21730.test1 and Window number: 2, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-06-2025_00-48
+Screen session: 21730.test1 and Window number: 4, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-06-2025_00-48
+Screen session: 21730.test1 and Window number: 1, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-06-2025_00-48
+Screen session: 21730.test1 and Window number: 3, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-06-2025_00-48
+Screen session: 21730.test1 and Window number: 0, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-06-2025_00-48
+Screen session: 56633.test2 and Window number: 1, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-07-2025_03-55
+Screen session: 62033.test4 and Window number: 3, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-07-2025_03-55
+Screen session: 56633.test2 and Window number: 0, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-07-2025_03-55
+Screen session: 62033.test4 and Window number: 2, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-07-2025_03-56
+Screen session: 56633.test2 and Window number: 2, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-07-2025_03-56
+Screen session: 62033.test4 and Window number: 1, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-07-2025_03-56
+Screen session: 62033.test4 and Window number: 0, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-07-2025_03-56
+Screen session: 21730.test1 and Window number: 2, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-07-2025_03-58
+Screen session: 21730.test1 and Window number: 3, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-07-2025_03-58
+Screen session: 21730.test1 and Window number: 0, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-07-2025_03-58
+Screen session: 21730.test1 and Window number: 4, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-07-2025_03-58
+Screen session: 21730.test1 and Window number: 1, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-07-2025_03-58
+Screen session: 56633.test2 and Window number: 3, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-07-2025_09-41
+Screen session: 60685.test3 and Window number: 1, finished running json_input_folder/Experiment_2_(2025-09-07) at 09-08-2025_01-04
+Screen session: 60685.test3 and Window number: 0, finished running json_input_folder/Experiment_2_(2025-09-07) at 09-08-2025_01-04
+Screen session: 60685.test3 and Window number: 3, finished running json_input_folder/Experiment_2_(2025-09-07) at 09-08-2025_01-04
+Screen session: 60685.test3 and Window number: 4, finished running json_input_folder/Experiment_2_(2025-09-07) at 09-08-2025_01-04
+Screen session: 60685.test3 and Window number: 2, finished running json_input_folder/Experiment_2_(2025-09-07) at 09-08-2025_01-05
+Screen session: 21730.test1 and Window number: 2, finished running json_input_folder/Experiment_3_(2025-09-08) at 09-08-2025_08-32
+Screen session: 21730.test1 and Window number: 1, finished running json_input_folder/Experiment_3_(2025-09-08) at 09-08-2025_08-32
+Screen session: 21730.test1 and Window number: 3, finished running json_input_folder/Experiment_3_(2025-09-08) at 09-08-2025_08-33
+Screen session: 21730.test1 and Window number: 0, finished running json_input_folder/Experiment_3_(2025-09-08) at 09-08-2025_08-33
+Screen session: 21730.test1 and Window number: 1, finished running json_input_folder/Experiment_4_(2025-09-09) at 09-09-2025_15-48
+Screen session: 21730.test1 and Window number: 3, finished running json_input_folder/Experiment_4_(2025-09-09) at 09-09-2025_15-48
+Screen session: 21730.test1 and Window number: 2, finished running json_input_folder/Experiment_4_(2025-09-09) at 09-09-2025_15-49
+Screen session: 21730.test1 and Window number: 0, finished running json_input_folder/Experiment_4_(2025-09-09) at 09-09-2025_15-49
+Screen session: 60685.test3 and Window number: 2, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-09-2025_17-11
+Screen session: 60685.test3 and Window number: 3, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-09-2025_17-11
+Screen session: 60685.test3 and Window number: 1, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-09-2025_17-11
+Screen session: 60685.test3 and Window number: 4, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-09-2025_17-17
+Screen session: 56633.test2 and Window number: 1, finished running json_input_folder/Experiment_4_(2025-09-09) at 09-10-2025_00-27
+Screen session: 56633.test2 and Window number: 0, finished running json_input_folder/Experiment_4_(2025-09-09) at 09-10-2025_00-27
+Screen session: 56633.test2 and Window number: 2, finished running json_input_folder/Experiment_4_(2025-09-09) at 09-10-2025_00-28
+Screen session: 62033.test4 and Window number: 0, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-10-2025_05-14
+Screen session: 62033.test4 and Window number: 2, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-10-2025_05-15
+Screen session: 21730.test1 and Window number: 4, finished running json_input_folder/Experiment_4_(2025-09-09) at 09-10-2025_12-12
+Screen session: 56633.test2 and Window number: 3, finished running json_input_folder/Experiment_4_(2025-09-09) at 09-10-2025_12-13
+Screen session: 60685.test3 and Window number: 0, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-10-2025_15-24
+Screen session: 62033.test4 and Window number: 1, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-10-2025_15-27
+Screen session: 21730.test1 and Window number: 2, finished running json_input_folder/Experiment_4_(2025-09-09) at 09-11-2025_11-17
+Screen session: 21730.test1 and Window number: 1, finished running json_input_folder/Experiment_4_(2025-09-09) at 09-11-2025_11-17
+Screen session: 21730.test1 and Window number: 3, finished running json_input_folder/Experiment_4_(2025-09-09) at 09-11-2025_11-17
+Screen session: 21730.test1 and Window number: 0, finished running json_input_folder/Experiment_4_(2025-09-09) at 09-11-2025_11-17
+Screen session: 62033.test4 and Window number: 3, finished running json_input_folder/Experiment_4_(2025-09-08) at 09-11-2025_13-31
+Screen session: 62033.test4 and Window number: 4, finished running json_input_folder/Experiment_4_(2025-09-08) at 09-11-2025_13-31
+Screen session: 62033.test4 and Window number: 0, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-11-2025_14-27
+Screen session: 60685.test3 and Window number: 1, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-11-2025_14-28
+Screen session: 62033.test4 and Window number: 2, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-11-2025_14-29
+Screen session: 63944.NAND and Window number: 0, finished running json_input_folder/Experiment_1_(2025-09-10) at 09-11-2025_17-24
+Screen session:  and Window number: , finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-12-2025_12-10
+Screen session: 62033.test4 and Window number: 2, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-12-2025_12-11
+Screen session: 62033.test4 and Window number: 1, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-12-2025_12-14
+Screen session: 62033.test4 and Window number: 0, finished running json_input_folder/Experiment_3_(2025-09-09) at 09-12-2025_12-14
+Screen session: 62033.test4 and Window number: 1, finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-12-2025_17-43
+Screen session: 62033.test4 and Window number: 0, finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-12-2025_17-45
+Screen session: 62033.test4 and Window number: 2, finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-12-2025_18-17
+Screen session: 56633.test2 and Window number: 4, finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-14-2025_00-52
+Screen session: 56633.test2 and Window number: 3, finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-14-2025_00-53
+Screen session: 56633.test2 and Window number: 2, finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-14-2025_00-53
+Screen session: 56633.test2 and Window number: 1, finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-14-2025_00-53
+Screen session: 56633.test2 and Window number: 0, finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-14-2025_00-53
+Screen session: 56633.test2 and Window number: 3, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-15-2025_09-22
+Screen session: 56633.test2 and Window number: 4, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-15-2025_09-22
+Screen session: 56633.test2 and Window number: 2, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-15-2025_09-22
+Screen session: 56633.test2 and Window number: 1, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-15-2025_09-22
+Screen session: 56633.test2 and Window number: 0, finished running json_input_folder/Experiment_9_(2025-09-05) at 09-15-2025_09-22
+Screen session: 21730.test1 and Window number: 1, finished running json_input_folder/Experiment_1_(2025-09-11) at 09-15-2025_11-55
+Screen session: 21730.test1 and Window number: 4, finished running json_input_folder/Experiment_1_(2025-09-11) at 09-15-2025_11-58
+Screen session: 21730.test1 and Window number: 0, finished running json_input_folder/Experiment_1_(2025-09-11) at 09-15-2025_11-58
+Screen session: 21730.test1 and Window number: 3, finished running json_input_folder/Experiment_1_(2025-09-11) at 09-15-2025_11-59
+Screen session: 21730.test1 and Window number: 2, finished running json_input_folder/Experiment_1_(2025-09-11) at 09-15-2025_12-06
+Screen session: 62033.test4 and Window number: 2, finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-15-2025_14-21
+Screen session: 62033.test4 and Window number: 3, finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-15-2025_14-21
+Screen session: 62033.test4 and Window number: 5, finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-15-2025_14-21
+Screen session: 62033.test4 and Window number: 4, finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-15-2025_14-22
+Screen session: 62033.test4 and Window number: 1, finished running json_input_folder/Experiment 1 (2025-09-12).json at 09-15-2025_14-22

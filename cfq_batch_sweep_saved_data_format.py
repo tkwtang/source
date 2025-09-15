@@ -1,0 +1,2 @@
+saved_file_style = ['work_distribution.npy', 'work_distribution.png', 'work_statistic.npy', 'work_statistic.png', 'initial_index.npy', 'final_index.npy', 'fidelity_time_array.npy', 'final_state.npy', 'particle_index.npy', 'final_work_distribution.npy', 'final_state.png', 'all_states.npy', 'szilard_engine.mp4'
+]
