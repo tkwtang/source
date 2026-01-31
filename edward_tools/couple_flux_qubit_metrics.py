@@ -112,75 +112,49 @@ def work_statistic_graph(work_mean, work_std, protocol_list, skip_step = 2000):
         plt.vlines(x=_t, ymin = np.min(work_mean), ymax = np.max(work_mean), ls="--", colors = "purple")
 
 
-def truncateFinalW(final_W):
-    sorted_final_W = np.sort(final_W)
-    naive_jarzynski = np.mean(np.exp(-np.sort(final_W)))
-    truncated_jarzynski = 0.0
-    truncated_part = [0.0]
+# def truncateFinalW(final_W):
+#     sorted_final_W = np.sort(final_W)
+#     naive_jarzynski = np.mean(np.exp(-np.sort(final_W)))
+#     truncated_jarzynski = 0.0
+#     truncated_part = [0.0]
 
-    if naive_jarzynski > 1:
-        for x in range(0, len(final_W)):
-            truncated_jarzynski = np.mean(np.exp(-np.sort(final_W)[x:]))
-            truncated_jarzynski_next = np.mean(np.exp(-np.sort(final_W)[x+1:]))
-            truncated_part = sorted_final_W[:x+1]
-            remaining_part = sorted_final_W[x+1:]
-            if truncated_jarzynski_next < 1 and truncated_jarzynski > 1:
-                break
-    else:
-        for x in range(0, len(final_W)):
-            truncated_jarzynski = np.mean(np.exp(-np.sort(final_W)[:-x]))
-            truncated_jarzynski_next = np.mean(np.exp(-np.sort(final_W)[:-x-1]))
-            truncated_part = sorted_final_W[-x-1:]
-            remaining_part = sorted_final_W[:-x-1]
-            if truncated_jarzynski_next > 1 and truncated_jarzynski < 1:
-                break
-
-    naive_jarzynski = np.mean(np.exp(-np.sort(final_W)))
-
-    print("naive_jarzynski = ", naive_jarzynski)
-    print("truncated_jarzynski = ", truncated_jarzynski)
-    print("truncated_jarzynski_next = ", truncated_jarzynski_next)
-    print("truncated_percentage = ", len(truncated_part) / (len(truncated_part) + len(remaining_part)))
-
-
-    fig, ax = plt.subplots(1, 2, figsize=(18,4))
-
-    selfDefinedBins = np.linspace(np.min(final_W), np.max(final_W), 100)
-    ax[0].hist(remaining_part, bins = selfDefinedBins)
-    ax[0].hist(truncated_part, bins = selfDefinedBins, color = "red")
-    ax[0].title.set_text('no scale')
-
-    ax[1].set_yscale("log")
-    ax[1].hist(remaining_part, bins = selfDefinedBins)
-    ax[1].hist(truncated_part, bins = selfDefinedBins, color = "red")
-    ax[1].title.set_text('log scale')
-
-    plt.show()
-
-    return truncated_jarzynski, truncated_jarzynski_next, truncated_part, remaining_part
-
-
-# import itertools
-# import operator
-
-# def getProtocolSubstepName(protocol_list, t):
-#     time_array = [item["duration"] for item in protocol_list]
-#     name_array = [item["name"] for item in protocol_list]
-#     cumulative_time_array = list(itertools.accumulate(time_array, operator.add))
-
-#     targetIndex = 0
-
-#     for i, x in enumerate(cumulative_time_array):
-#         if i == len(cumulative_time_array) - 1:
-#             targetIndex = i
-#             break
-#         elif i == 0 and t < cumulative_time_array[i]:
-#             print("case 2")
-#             targetIndex = i
-#             break
-#         else:
-#             if t >= cumulative_time_array[i] and t <= cumulative_time_array[i+1]:
-#                 targetIndex = i + 1
+#     if naive_jarzynski > 1:
+#         for x in range(0, len(final_W)):
+#             truncated_jarzynski = np.mean(np.exp(-np.sort(final_W)[x:]))
+#             truncated_jarzynski_next = np.mean(np.exp(-np.sort(final_W)[x+1:]))
+#             truncated_part = sorted_final_W[:x+1]
+#             remaining_part = sorted_final_W[x+1:]
+#             if truncated_jarzynski_next < 1 and truncated_jarzynski > 1:
+#                 break
+#     else:
+#         for x in range(0, len(final_W)):
+#             truncated_jarzynski = np.mean(np.exp(-np.sort(final_W)[:-x]))
+#             truncated_jarzynski_next = np.mean(np.exp(-np.sort(final_W)[:-x-1]))
+#             truncated_part = sorted_final_W[-x-1:]
+#             remaining_part = sorted_final_W[:-x-1]
+#             if truncated_jarzynski_next > 1 and truncated_jarzynski < 1:
 #                 break
 
-#     print(time_array, cumulative_time_array, name_array[targetIndex])
+#     naive_jarzynski = np.mean(np.exp(-np.sort(final_W)))
+
+#     print("naive_jarzynski = ", naive_jarzynski)
+#     print("truncated_jarzynski = ", truncated_jarzynski)
+#     print("truncated_jarzynski_next = ", truncated_jarzynski_next)
+#     print("truncated_percentage = ", len(truncated_part) / (len(truncated_part) + len(remaining_part)))
+
+
+#     fig, ax = plt.subplots(1, 2, figsize=(18,4))
+
+#     selfDefinedBins = np.linspace(np.min(final_W), np.max(final_W), 100)
+#     ax[0].hist(remaining_part, bins = selfDefinedBins)
+#     ax[0].hist(truncated_part, bins = selfDefinedBins, color = "red")
+#     ax[0].title.set_text('no scale')
+
+#     ax[1].set_yscale("log")
+#     ax[1].hist(remaining_part, bins = selfDefinedBins)
+#     ax[1].hist(truncated_part, bins = selfDefinedBins, color = "red")
+#     ax[1].title.set_text('log scale')
+
+#     plt.show()
+
+#     return truncated_jarzynski, truncated_jarzynski_next, truncated_part, remaining_part
