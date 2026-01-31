@@ -518,3 +518,66 @@ def sequential_protocol(
         prots.append(current_prot)
 
     return Compound_Protocol(prots)
+
+class Injected_Protocol:
+    """
+    A Protocol class that allows for user defined time dependence via a function.
+
+    Attributes
+    ----------
+    See attributes of the Protocol class
+
+    """
+
+    def __init__(self, time_duration, dt, protocol_array, default_params, replace_index):
+        self.protocol_array = protocol_array
+        self.time_duration = time_duration
+        self.default_params = default_params
+        self.dt = dt
+        self.total_steps = int(time_duration / dt)
+        self.t_i = 0
+        self.t_f = time_duration
+        self.replace_index = replace_index
+        
+    def get_params(self, t):
+        """
+        returns a list of length N_params, that gives the value of each parameter at time t
+        currently uses linear interpolation to determine the parameter
+
+        Parameters
+        ----------
+        t: float
+            the time at which you want the parameter values, t_i <= t <= t_f
+
+        Returns
+        -------
+        parameter_vals: ndarray of dimension [N_params]
+            gives the value of each parameter at the input time
+
+        """
+
+        if t < 0:
+            t = 0
+        if t > self.time_duration:
+            t = self.time_duration
+            # or t > 
+            # return ValueError("Time t is out of bounds of the protocol duration")
+
+        t_index = int(t / self.time_duration * self.total_steps)
+        # print(t, self.time_duration, self.total_steps, t_index)
+        
+        params_at_t = self.default_params.copy()
+
+        for i, idx in enumerate(self.replace_index):
+            if t_index >= self.total_steps:
+                t_index = t_index - 1
+            params_at_t[idx] = self.protocol_array[i, t_index]
+
+        return params_at_t
+    
+    def normalize(self):
+        """
+        normalizes the protocol timescale so it begins at t_i=0
+        and ends at t_f=1, no inputs and no outputs
+        """
+        pass

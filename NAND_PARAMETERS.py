@@ -7,6 +7,11 @@ GALLERY_JSON_FOLDER = "coupled_flux_qubit_protocol"
 GALLERY_JSON_FILE = "coupled_flux_qubit_protocol/gallery.json"
 GALLERY_JSON_BACKUP_FILE = "coupled_flux_qubit_protocol/gallery_backup.json"
 GALLERY_DATABASE_ARRAY =  ["gallery.json", "gallery_2025_08_30.json"]
+
+
+protocol_key = [ "U0_1", "U0_2", "gamma_1", "gamma_2", "beta_1", "beta_2", "d_beta_1", "d_beta_2", "phi_1x", "phi_2x", "phi_1xdc", "phi_2xdc", "mu_12", "x_c"] 
+
+
 phi_1xdc , phi_2xdc = 0, 0
 phi_1dc, phi_2dc = phi_1xdc, phi_2xdc
 
@@ -288,4 +293,5 @@ mapping_index = {"00": 0, "01": 1, "10": 2, "11": 3}
 
 mapping_state_1_to_state_2_dict_CE = {"00": ["00"], "01": ["01"], "10": ["00"], "11": ["11"]}
 
-mapping_state_1_to_state_2_dict_NAND = {"00": ["11"], "01": ["11"], "10": ["11"], "11": ["00"]}
+mapping_state_1_to_state_2_dict_partial_NAND_by_CE= {"00": ["01"], "01": ["01"], "10": ["01"], "11": ["10"]}
+mapping_state_1_to_state_2_dict_NAND  = {"00": ["11"], "01": ["11"], "10": ["11"], "11": ["00"]}

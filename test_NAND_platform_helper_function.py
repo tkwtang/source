@@ -7,6 +7,7 @@ import NAND_PARAMETERS
 from IPython.display import HTML
 from IPython import display
 import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
 from PIL import Image
 
 def getSimulationID(df):
@@ -210,7 +211,10 @@ def getSimulationWorkStatistics2(target, sim_id, folderPath = NAND_PARAMETERS.GA
         "jarzyn_term": jarzyn_term, "jarzyn_term_error": jarzyn_term_error
     }
 
-def report_data(target, showGraph = False, preText = None):
+def report_data(target, showGraph = False, preText = None, factor = 1):
+    graph_1_sci_fig = 4
+    graph_2_sci_fig = graph_1_sci_fig  - 1
+
     parameter_array = ["T", "dt", "N", "duration", "C", "L", "gamma"]
 
     beta = target['initial_parameter_dict'].values[0]['beta_1']
@@ -266,15 +270,23 @@ def report_data(target, showGraph = False, preText = None):
         print(preText)
         
     if showGraph:
-        fig, ax = plt.subplots(1, 1, figsize=[5, 5])
-        ax.set_title(r"$\langle W \rangle$ = " + f"{mean_joint_work_dist:.3g}")
+        # fig, ax = plt.subplots(1, 1, figsize=[5, 5])
+        gs_outer = gridspec.GridSpec(2, 3, figure=plt.figure(figsize=(14, 9)))
+        ax_all = plt.subplot(gs_outer[0, 0])
         
-        ax.hist(joint_work_dist, bins = 80)
-        ymin, ymax = ax.get_ylim()
-        ax.vlines(x=mean_joint_work_dist, ymin=ymin, ymax = ymax, linestyle = "--", color = "red")
-        ax.set_xlabel(r"work ($k_BT$)")
-        ax.set_ylabel("count")
-        plt.show()
+
+        # plt.show()
+
+
+        ax_all.set_title(r"$\langle W \rangle$ = " + f"{mean_joint_work_dist:.3g}")
+        
+        ax_all.hist(joint_work_dist * factor, bins = 80)
+        ymin, ymax = ax_all.get_ylim()
+        ax_all.vlines(x=mean_joint_work_dist, ymin=ymin, ymax = ymax, linestyle = "--", color = "red")
+        ax_all.ticklabel_format(axis='y', style="sci", scilimits=(graph_1_sci_fig, graph_1_sci_fig))
+        ax_all.set_xlim(-20, 100)
+        # ax_all.set_xlabel(r"work ($k_BT$)")
+        # ax_all.set_ylabel("count")
 
         pColor = {"00": "#061DF7", "01": "#FCEF51", "10": "#3FC7F2", "11": "#F187F4"}
 
@@ -290,25 +302,39 @@ def report_data(target, showGraph = False, preText = None):
         index_01 = np.hstack(index_array['01'])
         index_10 = np.hstack(index_array['10'])
         index_11 = np.hstack(index_array['11'])
-        fig, ax = plt.subplots(2, 2, figsize=[6, 6])
-        ax_01, ax_11, ax_00, ax_10 = ax.flatten()
 
+
+        gs_inner = gridspec.GridSpecFromSubplotSpec(
+            2, 2, wspace = 0.5, hspace = 0.5,
+            subplot_spec=gs_outer[0, 1], # 內網格綁定到外部網格的右半邊
+        )
+        ax_01, ax_11, ax_00, ax_10 = [plt.subplot(gs_inner[0, 0]), plt.subplot(gs_inner[0, 1]), plt.subplot(gs_inner[1, 0]), plt.subplot(gs_inner[1, 1])]
+        ax_01.hist(joint_work_dist[index_01] * factor, bins = 80, color = pColor['01'])
         
-        ax_01.hist(joint_work_dist[index_01], bins = 80, color = pColor['01'])
-        ax_01.set_title(r"$\langle W_{01} \rangle$ = " + f"{np.mean(joint_work_dist[index_01]):.3g}")
-        ax_11.hist(joint_work_dist[index_11], bins = 80, color = pColor['11'])
-        ax_11.set_title(r"$\langle W_{11} \rangle$ = " + f"{np.mean(joint_work_dist[index_11]):.3g}")
-        ax_00.hist(joint_work_dist[index_00], bins = 80, color = pColor['00'])
-        ax_00.set_title(r"$\langle W_{00} \rangle$ = " + f"{np.mean(joint_work_dist[index_00]):.3g}")
-        ax_10.hist(joint_work_dist[index_10], bins = 80, color = pColor['10'])
-        ax_10.set_title(r"$\langle W_{10} \rangle$ = " + f"{np.mean(joint_work_dist[index_10]):.3g}")
-        # ax_10.set_yticks([0, 20000, 40000])
-        fig.supxlabel(r"work ($k_BT$)")
-        fig.supylabel(r"counts")
+        ax_01.set_title(r"$\langle W_{01} \rangle$ = " + f"{np.mean(joint_work_dist[index_01]):.3g}", fontsize = 18)
+        ax_11.hist(joint_work_dist[index_11] * factor, bins = 80, color = pColor['11'])
+        ax_11.set_title(r"$\langle W_{11} \rangle$ = " + f"{np.mean(joint_work_dist[index_11]):.3g}", fontsize = 18)
+        ax_00.hist(joint_work_dist[index_00] * factor, bins = 80, color = pColor['00'])
+        ax_00.set_title(r"$\langle W_{00} \rangle$ = " + f"{np.mean(joint_work_dist[index_00]):.3g}", fontsize = 18)
+        ax_10.hist(joint_work_dist[index_10] * factor, bins = 80, color = pColor['10'])
+        ax_10.set_title(r"$\langle W_{10} \rangle$ = " + f"{np.mean(joint_work_dist[index_10]):.3g}", fontsize = 18)
 
+
+
+        for _ax in [ax_00, ax_01, ax_10, ax_11]:
+            _ax.set_xlim(-20, 100)
+            _ax.ticklabel_format(axis='y', style="sci", scilimits=(graph_2_sci_fig, graph_2_sci_fig))
+        
+        ax_01_ymin, ax_01_ymax = ax_01.get_ylim()
+        print("ax_01_ymax", ax_01_ymax)
+        # ax_01.text(s = f"{np.mean(joint_work_dist[index_01]):.3g}" , x = 90, y = ax_01_ymax * 0.9)
+
+
+        # plt.tight_layout()
         plt.show()
                     
-            
+        
+
                 
 
     else:

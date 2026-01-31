@@ -18,20 +18,21 @@ from quick_sim import setup_sim
 default_params_dict = {}
 
 class fluxQubitRunner(SimManager):
-    def __init__(self, potetial = fq_pot, name_func = [None, None], params = default_params_dict, potential_default_param_dict = fq_default_param_dict, storage_protocol = None, computation_protocol = None ):
+    def __init__(self, potential = fq_pot, name_func = [None, None], params = default_params_dict, potential_default_param_dict = fq_default_param_dict, storage_protocol = None, computation_protocol = None ):
         """
         params: parameters for the simulation such as time, lambda, theta and eta
         override_potential_parameter: to override the default parameter for the potential
         """
-        self.potential = potetial
+        self.potential = potential
         self.params = params
         self.save_name = name_func
         self.has_velocity = True
         self.override_potential_parameter = list(potential_default_param_dict.values())
         self.storage_protocol = storage_protocol
         self.computation_protocol = computation_protocol
-
         self.save_procs =  [SaveParams(), SaveSimOutput(), SaveFinalWork()]
+        self.sampleSize = round(params['N'] * params['percentage'])
+        self.as_step = params['as_step']
 
     def verify_param(self, key, val):
         return True
@@ -42,20 +43,35 @@ class fluxQubitRunner(SimManager):
 
         self.potential.default_params = np.array(self.override_potential_parameter)
         self.protocol = self.computation_protocol or self.potential.trivial_protocol().copy()
-        print(f"from fq_runner.py: system.protocol.t_i = {self.protocol.t_i}, system.protocol.t_f = {self.protocol.t_f}")
+        # print(f"from fq_runner.py: system.protocol.t_i = {self.protocol.t_i}, system.protocol.t_f = {self.protocol.t_f}")
 
         self.eq_system = System(self.eq_protocol, self.potential)
+        self.eq_system.axes_label = ["phi_1", "phi_1dc"]
         self.eq_system.has_velocity = self.has_velocity
+        self.eq_system.capacitance = self.params['capacitance']
+        self.eq_system.mass = self.params['mass']
+        self.eq_system.v_c = self.params['v_c']
+        self.eq_system.k_BT = self.params['k_BT']
+        self.eq_system.U0 = self.params['U0']
 
         self.system = System(self.protocol, self.potential)
+        self.system.axes_label = ["phi_1", "phi_1dc"]
         self.system.has_velocity = self.has_velocity
+        self.system.capacitance = self.params['capacitance']
+        self.system.mass = self.params['mass']
+        self.system.v_c = self.params['v_c']
+        self.system.k_BT = self.params['k_BT']
+        self.system.U0 = self.params['U0']
 
-        self.system.protocol.normalize()
+        # self.system.protocol.normalize()
         # self.system.protocol.time_stretch(np.pi/np.sqrt(1))
 
 
-    def set_sim_attributes(self):
-        self.init_state = self.eq_system.eq_state(self.params['N'], t=0, beta=self.params['beta'])
+    def set_sim_attributes(self, init_state = None, manual_domain = [-4, 4], axes = [0, 1], percentage = 1):
+        if init_state is not None:
+            self.init_state = init_state
+        else:
+            self.init_state = self.eq_system.eq_state(self.params['N'], t=0, beta=self.params['beta'])
 
         as_step = max(1, int((self.system.protocol.t_f/self.params['dt'])/500))
 
@@ -67,6 +83,9 @@ class fluxQubitRunner(SimManager):
 
         # edward added this, to override the 200 states only in all states.
         self.procs[2] = sp.MeasureAllState()
+
+        work_measurement_procedure = sp.MeasureWorkDone(rp.get_dW, trial_request=np.s_[::self.sampleSize], step_request=self.as_step)
+        self.procs.append(work_measurement_procedure)
 
         sim_kwargs = {
                         'damping':self.params['lambda'],

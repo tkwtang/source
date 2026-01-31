@@ -141,6 +141,11 @@ params['mass'] = np.array([1, 1, 1/4, 1/4])
 params['as_step'] = np.s_[::params['as_step'][-1]]
 
 
+# override parameters
+# params['dt'] = 1/1000
+# params['comment'] = "Experiment 1 (2025-10-27)"
+
+
 
 v_1 = np.random.normal(0, np.sqrt(k_BT/m_1)) / v_c
 v_2 = np.random.normal(0, np.sqrt(k_BT/m_2)) / v_c

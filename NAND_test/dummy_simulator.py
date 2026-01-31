@@ -30,7 +30,7 @@ from edward_tools.couple_flux_qubit_metrics import fidelityEvaluation
 from edward_tools import visualization
 
 from edward_tools.pot_analysis_helper_functions import get_XYU, pot_function, find_all_critical_points_for_all_potential
-
+import NAND_PARAMETERS
 coupled_fq_protocol_library = importlib.reload(coupled_fq_protocol_library)
 create_system = coupled_fq_protocol_library.create_system
 get_potential_shot_at_different_t = coupled_fq_protocol_library.get_potential_shot_at_different_t
@@ -72,7 +72,7 @@ has_velocity = True
 for database in GALLERY_DATABASE_ARRAY:
     print(f"seaching {database}")
     try:
-        df = loadDataFrame(gallery_path = f"coupled_flux_qubit_protocol/{database}")
+        df = loadDataFrame(gallery_path = f"../coupled_flux_qubit_protocol/{database}")
         target = getDataByID(df=df, sim_id=sim_id).head(1)
         if len(target) > 0:
             break
@@ -248,9 +248,9 @@ simResult = cfq_batch_sweep.simulateSingleCoupledFluxQubit(params, initial_param
 """
 # save results
 """
-cfq_batch_sweep.saveSimulationResult(simResult, U0_1, timeOrStep = 'step', save = True, save_final_state = True, saveFolderPath = os.path.join("..", GALLERY_FILE_PATH))
+cfq_batch_sweep.saveSimulationResult(simResult, U0_1, timeOrStep = 'step', save = True, save_final_state = True, saveFolderPath = os.path.join("..", NAND_PARAMETERS.GALLERY_DATA_FOLDER))
 
-failure_path_file_path = os.path.join("..", GALLERY_FILE_PATH, f"{simResult["simulation_data"]["simulation_id"]}_failure_path.npy")
+failure_path_file_path = os.path.join("..", NAND_PARAMETERS.GALLERY_DATA_FOLDER, f"{simResult["simulation_data"]["simulation_id"]}_failure_path.npy")
 
 failure_particles = simResult['cfqr'].get_failure_particles(mapping_dict)
 
